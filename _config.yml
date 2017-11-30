@@ -1,12 +1,9 @@
 name: Anthony Wilkinson
 
-# Short bio or description (displayed in the header)
 description: Anthony Wilkinson
 
 theme: jekyll-theme-tactile
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
 url: https://ajwilkinson.github.io
 
 gems:
