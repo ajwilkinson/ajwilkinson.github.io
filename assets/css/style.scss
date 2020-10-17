@@ -1,0 +1,29 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: #e6e6e6;
+}
+
+a {
+    color:#b32d00;
+}
+
+a:hover, a:focus {
+    color:#992600;
+}
+
+article.post {
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    width:1060px;
+    margin:0 auto;
+  }
+
+section {
+    width: 700px;
+}

@@ -1,5 +1,7 @@
 Public repo for Jekyll/Github pages site.
 
+Note the theme is https://github.com/pages-themes/minimal
+
 ```
 gem install bundle
 ```
@@ -22,3 +24,11 @@ Then do:
 ```
 bundle install
 ```
+
+To run the local devserver:
+```
+bundle exec jekyll serve
+```
+
+At which point the site is live on http://localhost:4000
+
