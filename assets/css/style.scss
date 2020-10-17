@@ -5,6 +5,7 @@
 
 body {
     background-color: #e6e6e6;
+    font-family: "Nunito Sans";
 }
 
 a {
@@ -26,4 +27,12 @@ article.post {
 
 section {
     width: 700px;
+}
+
+p.bio {
+    font-size: 18px;
+}
+
+h1.title {
+    text-align: center;
 }
