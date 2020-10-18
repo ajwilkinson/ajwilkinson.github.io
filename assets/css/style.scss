@@ -1,0 +1,65 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: #efefef;
+    font-family: "Nunito Sans";
+}
+
+a {
+    color:#b32d00;
+}
+
+a:hover, a:focus {
+    color:#992600;
+}
+
+article.post {
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    width:1060px;
+    margin:0 auto;
+  }
+
+section {
+    width: 700px;
+}
+
+p.bio {
+    font-size: 18px;
+}
+
+h1.title {
+    text-align: center;
+}
+
+img.logo {
+    display: block;
+    max-width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+span.blogtitle {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    width: 100%;
+}
+
+h1.blogtitle {
+    vertical-align:middle;
+    display: inline-block;
+}
+
+div.blogtitle {
+    text-align: right;
+    vertical-align: middle;
+    float:right;
+    margin-top:8px;
+}
