@@ -50,4 +50,16 @@ span.blogtitle {
     vertical-align: middle;
     line-height: normal;
     width: 100%;
-  }
+}
+
+h1.blogtitle {
+    vertical-align:middle;
+    display: inline-block;
+}
+
+div.blogtitle {
+    text-align: right;
+    vertical-align: middle;
+    float:right;
+    margin-top:8px;
+}

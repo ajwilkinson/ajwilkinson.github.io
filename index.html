@@ -6,14 +6,17 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <span class="blogtitle">
-      <h1 style="vertical-align:middle;display: inline-block"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1><div style="text-align: right;vertical-align: middle;float:right;margin-top:8px"><sup><sub>{{ post.date | date: "%b %d, %Y" }}</sub></sup></div>
+      <h1 class="blogtitle"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <div class="blogtitle">
+        <sup><sub>{{ post.date | date: "%b %d, %Y" }}</sub></sup>
+      </div>
       </span>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
     </article>
     <hr>
   {% endfor %}
